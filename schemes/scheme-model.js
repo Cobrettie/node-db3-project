@@ -1,6 +1,12 @@
-// const Schemes = require('')
+const db = require('../data/dbConfig.js');
 
-// find()
+module.exports = {
+  find,
+}
+
+function find() {
+  return db('schemes')
+}
 
 
 // findById(id)
