@@ -3,7 +3,8 @@ const db = require('../data/dbConfig.js');
 module.exports = {
   find,
   findById,
-  findSteps
+  findSteps,
+  add
 }
 
 function find() {
@@ -29,7 +30,9 @@ function findSteps(id) {
 }
 
 
-// add(scheme)
+function add(scheme) {
+  return db('schemes').insert(scheme)
+}
 
 
 // update(changes, id)
