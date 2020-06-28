@@ -33,3 +33,5 @@
   -- FROM [OrderDetail] as od
   -- JOIN [Order] as o, [Customer] as c, [Employee] as e
   -- ON od.OrderId = o.Id AND o.CustomerId = c.Id AND o.EmployeeId = e.Id
+
+  -- stretch - 
